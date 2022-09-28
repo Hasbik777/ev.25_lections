@@ -1,8 +1,6 @@
 # print(dir(str)) #методы строк
 
-# replace(old, new, [count]) -  меняет в строке old
-
-
+# replace(old, new, [count]) -  меняет в строке old на new значение, если вы укажите count, то он заменит его ровно count раз
 
 #text = 'ha ha ha ha'
 # result = text.replace('a, 'i', 2)
@@ -139,10 +137,7 @@
 
 
 
-
-
-
-
-
-
+string = 'Python is awesome'
+string = 'Python'
+print(string[:len (start)] == start)
 
