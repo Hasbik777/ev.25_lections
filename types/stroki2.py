@@ -132,12 +132,3 @@
 
 # res = '#'.join(ls)
 # print(res)
-
-
-
-
-
-string = 'Python is awesome'
-string = 'Python'
-print(string[:len (start)] == start)
-

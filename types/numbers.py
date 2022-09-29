@@ -200,5 +200,3 @@ import random
 # result_S = pi * (r ** 2)
 # print('площадь окружность', round(result_S))
 # print('периметр окружность', round(result_P))
-
-
