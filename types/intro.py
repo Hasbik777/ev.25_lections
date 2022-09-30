@@ -43,7 +43,7 @@
 # print (a)
 
 # print(input('Введите свое имя: '))
-print(input(''))
+# print(input(''))
 
 
 
