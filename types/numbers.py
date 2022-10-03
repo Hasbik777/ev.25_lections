@@ -177,7 +177,7 @@ id() -> номер в ячейке памяти
 '''
 Модуль random - предосьавляет функции для  генерации случайных чисел, буквы, символы
 '''
-import random
+# import random
 
 # print(dir(random))
 
@@ -200,3 +200,7 @@ import random
 # result_S = pi * (r ** 2)
 # print('площадь окружность', round(result_S))
 # print('периметр окружность', round(result_P))
+
+
+
+

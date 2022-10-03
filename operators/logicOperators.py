@@ -37,7 +37,7 @@
 # else
 
 # if <condition>:
-#     <body if> # сработает если в выоажении if придет True
+#     <body if> # сработает если в выражении if придет True
 # [elif] <condition>:
 #     <body elif> 
 # [else]:

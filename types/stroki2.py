@@ -2,10 +2,10 @@
 
 # replace(old, new, [count]) -  меняет в строке old на new значение, если вы укажите count, то он заменит его ровно count раз
 
-#text = 'ha ha ha ha'
-# result = text.replace('a, 'i', 2)
+# text = 'ha ha ha ha'
+# result = text.replace('a', 'i', 2)
 # print(text)
-# print(f'result after replace: {result:'})
+# print(f'result after replace: {result:}')
 
 # str1 = 'Hello world! My name is John Snow'
 # res = str1.replace('John Snow', 'Jamie Lanester')
