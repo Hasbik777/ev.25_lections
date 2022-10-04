@@ -87,7 +87,7 @@
 # while i < text.count('o'):  # 4
 #     res = text.count('o', res+1)
 #     print(res)
-#     # print(i)
+    # print(i)
 #     i += 1 #инкремент
 
 # find(value, [start], [end]) -> делает тоже самое что и index, но есть одно отличие, в том что еслии value нет в строке то возвращается индекс -1
@@ -132,3 +132,5 @@
 
 # res = '#'.join(ls)
 # print(res)
+
+

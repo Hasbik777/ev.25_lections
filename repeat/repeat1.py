@@ -1,7 +1,7 @@
 # s1 = 'America'
 # s2 = 'Japan'
-        # res = 'fs1-1s2-ms1-ms2-ls1-ls2'
-        # kol / 2 = avr_middle
+       # res = 'fs1-1s2-ms1-ms2-ls1-ls2'
+       #  kol / 2 = avr_middle
 # first_s1 = s1[0]
 # first_s2 = s2[0]
 # middle_s1 = s1[len(s1) // 2]

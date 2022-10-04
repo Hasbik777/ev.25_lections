@@ -44,7 +44,7 @@
 #     print('Вы ввели не число!')
 
 # from string import digits
-#-------------------------------------------
+# -------------------------------------------
 # from string import digits
 # flag = True
 # symbols = digits + '-' + '.'
@@ -98,10 +98,8 @@
 #     choice = input('Хотите остановить(yes): ')
 #     if choice.lower() == 'yes':
 #         flag = False
-#         print('Пока !')
+#         print('Пока!')
 #------------------------------------------------
-
-
 
 
 
