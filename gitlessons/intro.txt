@@ -20,4 +20,4 @@ git commit -m '<comment>" - как только достигаем опреде�
   3) git commit -m ''
               3.1) git branch -M main (1 раз, для переименования ветки) 
               *) git remote add origin <ссыслка> (1 раз)
-  4.*) git push origin main            
+  4.*) git push origin main (master)             
