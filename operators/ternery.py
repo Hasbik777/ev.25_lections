@@ -45,61 +45,61 @@
 
 # from string import digits
 # -------------------------------------------
-# from string import digits
-# flag = True
-# symbols = digits + '-' + '.'
-# while flag:
-#     is_correct_number = True
-#     num1 = input('Vvedite petvoe chislo: ')
+from string import digits
+flag = True
+symbols = digits + '-' + '.'
+while flag:
+    is_correct_number = True
+    num1 = input('Vvedite petvoe chislo: ')
     
-#     if len(num1) == 1 and (num1 == '.' or num1 == '-') and num1:
-#         print('Вы ввели неправильное число!')
-#         is_correct_number = False
+    if len(num1) == 1 and (num1 == '.' or num1 == '-') and num1:
+        print('Вы ввели неправильное число!')
+        is_correct_number = False
 
-#     for x in num1:        
-#         if x not in symbols:
-#             print('Вы ввели неправильное число!')
-#             is_correct_number = False
-#             break
-#     if not is_correct_number:
-#         continue     
-#     num2 = input('Vvedite vtoroe chislo: ')
+    for x in num1:        
+        if x not in symbols:
+            print('Вы ввели неправильное число!')
+            is_correct_number = False
+            break
+    if not is_correct_number:
+        continue     
+    num2 = input('Vvedite vtoroe chislo: ')
     
-#     if len(num2) == 1 and (num2 == '.' or num2 == '-') and num2:
-#         print('Вы ввели неправильное число!')
-#         is_correct_number = False
+    if len(num2) == 1 and (num2 == '.' or num2 == '-') and num2:
+        print('Вы ввели неправильное число!')
+        is_correct_number = False
 
-#     for x in num2:        
-#         if x not in symbols:
-#             print('Вы ввели неправильное число!')
-#             is_correct_number = False
-#             break    
-#     if not is_correct_number:
-#         continue       
-#     num1 = float(num1) if '.' in num1 else int(num1)
-#     num2 = float(num2) if '.' in num2 else int(num2)
-#     print(num1)
-#     print(num2)
-#     operator = input('Vvedite operator(+, -, *, /): ')
-#     if operator == '+':
-#          print(f'Результат: {num1 + num2}')
-#     elif operator == '-':
-#         print(f'Резельтат: {round(num1 - num2, 2)}')   
-#     elif operator == '*':
-#         print(f'Резельтат: {num1 * num2}')  
-#     elif operator == '/':
-#         if num2 == 0:
-#             print('На ноль делить нельзя!')
-#         else:
-#             print(f'Резельтат: {num1 / num2}')    
-#     else:
-#         print('Вы ввели неправильный оператор!')
+    for x in num2:        
+        if x not in symbols:
+            print('Вы ввели неправильное число!')
+            is_correct_number = False
+            break    
+    if not is_correct_number:
+        continue       
+    num1 = float(num1) if '.' in num1 else int(num1)
+    num2 = float(num2) if '.' in num2 else int(num2)
+    print(num1)
+    print(num2)
+    operator = input('Vvedite operator(+, -, *, /): ')
+    if operator == '+':
+         print(f'Результат: {num1 + num2}')
+    elif operator == '-':
+        print(f'Резельтат: {round(num1 - num2, 2)}')   
+    elif operator == '*':
+        print(f'Резельтат: {num1 * num2}')  
+    elif operator == '/':
+        if num2 == 0:
+            print('На ноль делить нельзя!')
+        else:
+            print(f'Резельтат: {num1 / num2}')    
+    else:
+        print('Вы ввели неправильный оператор!')
 
-#     choice = input('Хотите остановить(yes): ')
-#     if choice.lower() == 'yes':
-#         flag = False
-#         print('Пока!')
-/# ------------------------------------------------
+    choice = input('Хотите остановить(yes): ')
+    if choice.lower() == 'yes':
+        flag = False
+        print('Пока!')
+# ------------------------------------------------
 
 
 
