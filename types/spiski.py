@@ -128,12 +128,17 @@
 # print(ls)
 
 
+#################################################################################
+# list_ =['world', 'hello']
+# print(list_)
+# list_.reverse()
+# print(list_)
 
+# new_list = []
+# list_ = ['world', 'hello']
+# for new_list in list_:
+#     list_.reverse()
+#     print(list_)
 
-
-
-
-
-
-
+##########################################################################
 

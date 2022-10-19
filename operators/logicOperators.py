@@ -133,12 +133,7 @@
 # if choice not in str1:                             # -> неготивные пример
 #     print(f'The symbol: {choice} does not exist!')
 # else:
-#       print(f'The symbol: {choice} exist!')
-    
-
-
-
-
+#       print(f'The symbol: {choice} exist!'
 
 
 
