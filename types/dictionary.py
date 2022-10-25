@@ -42,7 +42,7 @@
 # print(user_info.values())
 
 # for value in user_info.values():
-#     print(value)
+    # print(value)
 
 # for key, value in user_info.items():
 #     print(f'key: {key}, value: {value}')
@@ -97,3 +97,6 @@
 # print(dict_)
 # print(removed)
 
+a = {'x': 1, 'y': 2, 'z': 1}
+ls = list(a.items())
+print(ls[0])

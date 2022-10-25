@@ -154,8 +154,18 @@
 # else:
 #     print('Everything ok!')     
 
-
-
+x = []
+list_ = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+chet = 0
+nechet = 0
+for i in list_:
+    if int(i) % 2 == 0:
+        chet += 1
+        list_.append(i)
+    else:
+        nechet += 1
+        list_.append(i)
+print(f'Четные числа: {chet}, Нечетные числа: {nechet}')        
 
 
 
