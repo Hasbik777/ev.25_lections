@@ -103,3 +103,5 @@
 #     return ' '.join(spisok)
 # print(get_revers_string('Hello world! My name is John, last name is Snow. Nice to meet you!'))    
 # print(get_revers_string('hello john snow king'))
+
+      

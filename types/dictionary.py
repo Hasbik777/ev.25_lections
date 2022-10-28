@@ -97,6 +97,3 @@
 # print(dict_)
 # print(removed)
 
-a = {'x': 1, 'y': 2, 'z': 1}
-ls = list(a.items())
-print(ls[0])
