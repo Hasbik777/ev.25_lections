@@ -28,6 +28,7 @@ my name is John Snow
  
 # Срезы по индексу
 # [start, end, <step>]
+
 # str1 = 'birthdaydkfgndkkjgdfghgl'
 # str2 = str1[0:5]
 # print(str2)

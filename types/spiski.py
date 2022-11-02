@@ -137,8 +137,8 @@
 # new_list = []
 # list_ = ['world', 'hello']
 # for new_list in list_:
-#     list_.reverse()
-#     print(list_)
+#     res = new_list 
+#     print(res)
 
 ##########################################################################
 
