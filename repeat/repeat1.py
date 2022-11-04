@@ -42,7 +42,7 @@
 # print('периметр окружность', round(result_P))
 
 # import math
-# a = int(input('Введите длину'))
+# a = int(input('Введите длину: '))
 # result_P = 4 * a
 # result_S = a ** 2
 # print('площадь квадрата', (result_S))

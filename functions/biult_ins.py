@@ -78,11 +78,11 @@
 
 # enumerate(iterable) - она пронумеровывает каждый элемент внутри iterable, ее собственным индексом
 
-ls = ['str1', 'str2', 'str3']
+# ls = ['str1', 'str2', 'str3']
 # x = list(enumerate(ls))
 # print(x)
-for i, x in enumerate(ls):
-    print(f'Index: {i}, Element: {x}')
+# for i, x in enumerate(ls):
+#     print(f'Index: {i}, Element: {x}')
 
 # --------------------------------------------------------------------
  
@@ -154,19 +154,40 @@ for i, x in enumerate(ls):
 # else:
 #     print('Everything ok!')     
 
-x = []
-list_ = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-chet = 0
-nechet = 0
-for i in list_:
-    if int(i) % 2 == 0:
-        chet += 1
-        list_.append(i)
-    else:
-        nechet += 1
-        list_.append(i)
-print(f'Четные числа: {chet}, Нечетные числа: {nechet}')        
+# x = []
+# list_ = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+# chet = 0
+# nechet = 0
+# for i in list_:
+#     if int(i) % 2 == 0:
+#         chet += 1
+#         list_.append(i)
+#     else:
+#         nechet += 1
+#         list_.append(i)
+# print(f'Четные числа: {chet}, Нечетные числа: {nechet}')        
 
+# a = 0 
+# b = 2
+# c = 5
+# a1 = a + b
+# b1 = c - b
+# c1 = a + b + c
+# a = a1
+# b = b1
+# c = c1
+# print(a, b, c)
 
+# number()
 
+# geo_logs = [{'visit2': ['Дели','Индия']}, {'visit3': ['Владимир', 'Россия']}, {'visit9': ['Курск','Россия']}]
+
+# geo_logst = []
+# for x in geo_logs:
+#     for k,v in x.items():
+#         if 'Россия' not in v:
+#             print(k)
+# print(geo_logs)
+
+# print(geo_logs)
 
