@@ -133,9 +133,16 @@
 # if choice not in str1:                             # -> неготивные пример
 #     print(f'The symbol: {choice} does not exist!')
 # else:
-#       print(f'The symbol: {choice} exist!'
+#       print(f'The symbol: {choice} exist!')
+
+# ------------------------------------------------------------------------------------------
+# year = int(input())
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#     print('YES')
+# else:
+#     print('NO')
 
 
 
-
+     
 

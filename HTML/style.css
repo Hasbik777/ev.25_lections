@@ -1,0 +1,52 @@
+/* body{
+    background-color: rgb(red, green, blue);
+}
+ul{
+    color: brown;
+} */
+/* Селектор по классу */
+
+.john{
+    font-weight: bold;
+    color: black !important;
+}
+
+/* Селектор id */
+#snow1{
+    color: rgb(17, 17, 110);
+}
+
+#snow2{
+    color: rgb(129, 67, 187);
+}
+
+/* Униыерсальный селектор */
+*{
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .john2{
+    font-style: italic;
+} */
+
+
+
+.block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.block-item{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border: 1x solid black;
+    border-radius: 10px;
+}

@@ -14,7 +14,7 @@
 # def list_of_products():
 #     data = get_data()
 #     return f'Список всех товаров: {data}'
-#                             # print(list_of_products())    
+# print(list_of_products())    
 # def detail_product():
 #     data = get_data()
 #     try:

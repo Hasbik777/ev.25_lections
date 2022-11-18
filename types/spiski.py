@@ -136,9 +136,9 @@
 
 # new_list = []
 # list_ = ['world', 'hello']
-# for new_list in list_:
-#     res = new_list 
-#     print(res)
+# for i in list_:
+#     new_list = list_.sort() 
+#     print(new_list)
 
 ##########################################################################
 

@@ -86,12 +86,22 @@
 
 # num1 = 513
 # num2 = 2.7
-# res = 513 / 2.7
+# res = 513 // 2.7
 # print('этажи в здании', (res))
 
 
+# import math
+# lenght = 3
+# height = 5
+# res = (lenght + height) * 2
+# res1 = lenght * height
+# print(res, res1)
 
-
+from math import pi
+radius = 2
+res = 2 * radius * pi
+res1 = pi * (radius ** 2)
+print(res, res1)
 
 
 
