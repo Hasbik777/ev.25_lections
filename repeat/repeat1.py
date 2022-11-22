@@ -97,11 +97,11 @@
 # res1 = lenght * height
 # print(res, res1)
 
-from math import pi
-radius = 2
-res = 2 * radius * pi
-res1 = pi * (radius ** 2)
-print(res, res1)
+# from math import pi
+# radius = 2
+# res = 2 * radius * pi
+# res1 = pi * (radius ** 2)
+# print(res, res1)
 
 
 

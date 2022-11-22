@@ -129,16 +129,66 @@
 
 
 #################################################################################
-# list_ =['world', 'hello']
+# list_ = ['world', 'hello']
 # print(list_)
-# list_.reverse()
-# print(list_)
+# new_list = list_
+# new_list.reverse()
+# print(new_list)
 
 # new_list = []
 # list_ = ['world', 'hello']
 # for i in list_:
-#     new_list = list_.sort() 
+#     new_list = str(list_.reverse()) 
 #     print(new_list)
 
 ##########################################################################
 
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a >= b + c or b >= a + c or c >= b + a:
+#     print('impossible')
+# elif a**2 == b**2 + c**2 or b**2 == a**2 + c**2 or c**2 == b**2 + a**2:
+#     print('rectangular')
+# elif a**2 > b**2 + c**2 or b**2 > a**2 + c**2 or c**2 > b**2 + a**2:
+#     print('obtuse')
+# elif a**2 < b**2 + c**2 or b**2 < a**2 + c**2 or c**2 < b**2 + a**2:
+#     print('acute')
+
+
+# string = '123123'
+# if int(string[0]) + int(string[1]) + int(string[2]) == int(string[3]) + int(string[4]) + int(string[5]):
+#     print('да')
+# else:
+#     print('нет')
+
+# --------------------------------------------------------------
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a > b and a > c:
+#     if b > c:
+#         print(a,b,c)
+#     else:
+#         print(a,c,b)
+# elif b > a and b > c:
+#     if a > c:
+#         print(b,a,c)
+#     else:
+#         print(b,c,a)
+# if c >  b and c > a:
+#     if b > a:
+#         print(c,b,a)
+#     else:
+#         print(c,a,b)
+
+# -------------------------------------------
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# ls = []
+# ls.append(a)
+# ls.append(b)
+# ls.append(c)
+# print(*sorted(ls))

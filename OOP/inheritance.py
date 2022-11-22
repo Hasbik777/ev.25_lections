@@ -158,30 +158,27 @@
 # time = datetime.now()
 # print(time)
 
-# class Song:
-#     def __init__(self, show_author, show_title, show_year):
-
-#         self.author = show_author
-#         self.title = show_title
-#         self.year = show_year
-
-#     def get_info(self):
-#         return f'Название этой песни {self.title}\nАвтор этой песни {self.author}\nЭта песня вышла в {self.year} году'
+# --------------------------------------------------------------------------------
 
 # class Song:
-#     def __init__(self, author, title, year):
-#         self.author = author
+#     def __init__(self, title, author, year):
 #         self.title = title
+#         self.author = author
 #         self.year = year
 
-#     def get_info(self):
-#         return f'Название этой песни {self.title}\nАвтор этой песни {self.author}\nЭта песня вышла в {self.year} году'    
-        
-# a = Song('Pharrel Williams', 'Happy', 2013)
-# a1 = Song('Adel', 'Hello', 2012)
-# print(a.get_info())
-# print()
-# print(a1.get_info())
+#     def show_title(self):
+#         return f'Название этой песни {self.title}'
+
+#     def show_author(self):
+#         return f'Автор этой песни {self.author}'
+
+#     def show_year(self):
+#         return f'Эта песня вышла в {self.year} году'
+
+# song = Song('Happy', 'Pharrell Williams', 2013)
+# print(song.show_title())
+# print(song.show_author())
+# print(song.show_year())
 
 # --------------------------------------------------------------
 
@@ -309,3 +306,4 @@
 # account = Bankaccount()
 # account.deposit(1000)
 # account.witdraw(500) 
+
