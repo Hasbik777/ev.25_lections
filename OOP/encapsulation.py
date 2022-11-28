@@ -190,13 +190,3 @@
 # capitals_error = CustomError('ТОЛЬКО БОЛЬШИЕ БУКВЫ РАЗРЕШЕНЫ В ЭТОМ КОДЕ')
 # print(check_letters('HELLO'))
 
-# name_of_list = ['Helloworld!'] 
-# new_list = 
-# if len(str(name_of_list)) % 2 == 0:
-#     name_of_list[5:] += 1
-#     new_list.reverse()
-# print(new_list)
-
-# list_ = ['hello', 'world']
-# res = list_.reverse()
-# print(res)

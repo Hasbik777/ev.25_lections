@@ -126,10 +126,19 @@
 
 
 
+# class Salary:
+#     percent = 8
+#     def __init__(self, salary, experience):
+#         self.salary = salary
+#         self.exp = experience
 
+#     def count_percent(self):
+#         res = self.salary * self.exp * (self.percent / 100) 
+#         return f'Сумма налагов составило: {res} сом, за {self.exp} месяцев!'
+        
 
-
-
+# obj = Salary(10_000, 10)
+# print(obj.count_percent())
 
 
 

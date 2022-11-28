@@ -1,0 +1,4 @@
+1 Func name: start_test, Called time 20:35:59.383502
+2 Func name: hello, Called time 20:35:59.383707
+3 Func name: world, Called time 20:35:59.383823
+4 Func name: start_test, Called time 20:35:59.383921
