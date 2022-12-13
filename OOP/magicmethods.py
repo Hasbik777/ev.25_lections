@@ -200,3 +200,37 @@
 # x[2]
 # x[-1]
 # x[0]
+# -------------------------------------------------------
+# SINGLETON
+
+# class Singleton:
+#     instance = None
+#     def __new__(cls):
+#         if not cls.instance:
+#             cls.instance = super().__new__(cls)
+#         return cls.instance
+
+# obj = Singleton()
+# print(obj)
+# obj2 = Singleton()
+# print(obj2)
+
+# -------------------------------------------------------------
+
+# class Car:
+#     def __init__(self) -> None:
+#         self.model = 'Honda'
+
+#     def __delattr__(self, name):
+#         value = getattr(self, name)
+#         choice = input(f'Are you sure to delete attr: {value}?')
+#         if choice.strip().lower() == 'yes':
+#             super().__delattr__(name)
+#             print(f'{value} removed!')
+#         else:
+#             print('Ok, not removed!')
+
+# honda = Car()
+# print(honda.model)
+# del honda.model
+# print(honda.model)

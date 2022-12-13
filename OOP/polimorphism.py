@@ -166,6 +166,31 @@
 # phone.charge_battery(15)
 # phone.battery_level
 
-        
+# -------------------------------
+# class Dog:
+#     def __init__(self, name):
+#         self.name = name
 
-        
+#     def voice(self):
+#         print('Гав')
+
+# class Cat:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def voice(self):
+#         print('Мяу')
+
+# dog = Dog('rex')
+# cat = Cat('barsik')
+# for to_pet in (cat, dog):
+#     to_pet.voice()        
+
+
+# list_ = range(54, 9184)
+# a = []
+# for i in list_:
+#     if i % 5 == 0:
+#         a.append(i)
+# print(a)
+    

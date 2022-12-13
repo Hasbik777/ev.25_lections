@@ -94,9 +94,7 @@
 #         good_students.append(student[0])        
 # print(f'Ученики {good_students} в этом семестре хорошо учатся!')
 
-
-
-
+    
 
 
 
