@@ -8,7 +8,7 @@
 # print(set_)
 # print(type(set_))
 
-# ls = [1, 2, 'a', 0, False, True, 'n']
+ls = [1, 2, 'a', 0, False, True, 'n']
 # str1 = 'My name is John Snow'
 # ls.extend(str1)
 # print(ls)
